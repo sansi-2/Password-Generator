@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link 
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <title>Password Generator</title>
+</head>
+
+
+
+<body>
+
+  <!-- Main -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Password Generator</a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          
+      </div>
+    </div>
+    </div>
+  </nav>
+
+
+  <main>
+    <div>
+      <h1> Password Generator</h1>
+    </div>
+    <div id="description">
+      <p>
+        This is a password generator. It generates a random password based on the criteria you select.
+      </p>
+      <p>
+        You can select your password based on the following categories:
+      <ul>
+        <li>Generate Super Strong Password</li>
+        <li>Generate Strong Password</li>
+        <li>Generate Weak Password</li>
+        <li>Generate Funny Password</li>
+      </ul>
+      </p>
+
+      <h2>Generate Your Password: </h2>
+      <button class="btn btn-outline-secondary" id="super" >Super Strong</button>
+      <button class="btn btn-outline-secondary" id="strong" >Strong</button>
+      <button class="btn btn-outline-secondary" id="weak" >Weak</button>
+      <button class="btn btn-outline-secondary" id="funny" >Funny</button>
+
+      <div id="pass">
+        Your Password
+      </div>
+       <button class="btn btn-outline-secondary" id="clear" >CLEAR</button>
+
+
+    </div>
+  </main>
+
+  <footer class="footer mt-auto py-3 bg-$gray-700">
+    <div class="container">
+      <span class="text-muted">Designed and Developed by Sanskriti Sahu</span>
+    </div>
+  </footer>
+  
+  <script src="script.js"></script>
+  
+</body>
+
+</html>
